@@ -11,10 +11,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
-/* 
-  This component lives INSIDE BrowserRouter
-  so we can safely use useLocation()
-*/
+
 function AppContent() {
   const location = useLocation();
 
